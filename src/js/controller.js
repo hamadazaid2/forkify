@@ -155,6 +155,10 @@ const controlAddRecipe = async function (newRecipe) {
 
 }
 
+const welcomeing = function () {
+  console.log('Welcome the forkify app :)');
+}
+
 
 const init = function () {
   // Here we use Subscriber publisher design pattern
@@ -165,6 +169,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  welcomeing();
 };
 init();
-
