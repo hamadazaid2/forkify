@@ -2,8 +2,6 @@ import View from './View.js';
 import icons from 'url:../../img/icons.svg';
 
 // Because icons.svg changed it's name when we use parcel, si we need the new name an path, so we import it and below we will use the new path
-import { Fraction } from 'fractional'
-
 
 
 class RecipeView extends View {
