@@ -1,4 +1,4 @@
-import View from './view';
+import View from './view.js';
 import icons from 'url:../../img/icons.svg';
 
 // Because icons.svg changed it's name when we use parcel, si we need the new name an path, so we import it and below we will use the new path

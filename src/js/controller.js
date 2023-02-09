@@ -1,11 +1,11 @@
 import * as model from './model.js';
-import { MODAL_CLOSE_SEC } from './config'
+import { MODAL_CLOSE_SEC } from './config.js'
 import recipeView from './views/recipeView.js';
 import searchView from './views/searchView.js';
 import searchView from './views/searchView.js';
 import resultsView from './views/resultsView.js';
-import bookmarksView from './views/bookmarksView';
-import addRecipeView from './views/addRecipeView';
+import bookmarksView from './views/bookmarksView.js';
+import addRecipeView from './views/addRecipeView.js';
 import paginationView from './views/paginationView.js';
 
 

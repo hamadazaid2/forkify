@@ -1,6 +1,6 @@
 // We put here all the functions that we use it again and again
 import { async } from "regenerator-runtime";
-import { TIMEOUT_SEC } from "./config";
+import { TIMEOUT_SEC } from "./config.js";
 
 
 // This is a timeout for a long time requests

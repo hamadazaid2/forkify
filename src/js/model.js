@@ -1,10 +1,10 @@
 'use strict';
 
 import { async } from "regenerator-runtime";
-import { API_URL, RES_PER_PAGE, KEY } from "./config";
+import { API_URL, RES_PER_PAGE, KEY } from "./config.js";
 // import { getJSON, sendJSON } from "./hepler";
-import { AJAX } from "./hepler";
-import recipeView from "./views/recipeView";
+import { AJAX } from "./hepler.js";
+import recipeView from "./views/recipeView.js";
 
 
 export const state = {
