@@ -2,7 +2,7 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "",
-  "default": "index.js",
+  "default": "index.html",
   "scripts": {
     "start": "npx parcel index.html",
     "build": "npx parcel build index.html --dist-dir ./dist"
